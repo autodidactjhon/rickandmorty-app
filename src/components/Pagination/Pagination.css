@@ -1,0 +1,23 @@
+.paginator {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 50px;
+}
+
+.paginator button {
+  display: inline-block;
+  margin: 10px;
+  padding: 16px;
+  background-color: #09f;
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  border: none;
+  font-size: 16px;
+}
+
+.paginator button:hover {
+  cursor: pointer;
+  background-color: #0077cc;
+}

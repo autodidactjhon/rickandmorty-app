@@ -7,3 +7,9 @@
   max-width: 1200px;
   padding-top: 120px;
 }
+
+@media (max-width: 780px) {
+  .characters-list {
+    padding-top: 225px;
+  }
+}

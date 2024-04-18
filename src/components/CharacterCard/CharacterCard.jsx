@@ -12,7 +12,7 @@ function CharacterCard({ character }) {
       <div className='character-info'>
         <span>{name}</span>
         <span>{species}</span>
-        <Link to={`/character/${id}`}>More info</Link>
+        <Link to={`/rickandmorty-app/character/${id}`}>More info</Link>
       </div>
     </div>
   );

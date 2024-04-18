@@ -24,7 +24,7 @@ const CharacterView = () => {
         <p>Origin: {origin.name}</p>
         <p>Last known location: {location.name}</p>
       </div>
-      <Link to='/characters'>Go Back</Link>
+      <Link to='/rickandmorty-app'>Go Back</Link>
     </div>
   );
 }

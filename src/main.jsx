@@ -10,16 +10,16 @@ import './index.css';
 const queryClient = new QueryClient();
 const router = createBrowserRouter([
   {
-    path: '/characters',
+    path: '/rickandmorty-app',
     element: <CharactersList />,
   },
   {
-    path: '/character/:id',
+    path: '/rickandmorty-app/character/:id',
     element: <CharacterView />
   },
   {
     path: '/',
-    element: <Navigate to="characters" />
+    element: <Navigate to="/rickandmorty-app" />
   },
   {
     path: '*',

@@ -46,6 +46,10 @@
   margin-right: 10px;
 }
 
+.navbar .btn-wrapper {
+  display: flex;
+}
+
 .navbar button {
   padding: 5px 10px;
   background-color: #fff;
@@ -70,5 +74,32 @@
 .icon {
   width: 20px;
   height: 20px;
+}
+
+@media (max-width: 780px) {
+  .navbar-wrapper, .navbar-section {
+    display: block;
+    padding: 5px;
+  }
+
+  .navbar label {
+    margin-right: 10px;
+    text-align: center;
+    line-height: 0.6;
+  }
+
+  .navbar input, .navbar select {
+    width: 50vw;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .navbar .btn-wrapper {
+    justify-content: center;
+  }
+
+  .navbar button {
+    margin: 5px 5px 0;
+  }
 }
   
