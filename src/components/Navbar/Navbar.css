@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-wrapper {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.navbar-section label {
+  display: block;
+  margin-bottom: 5px;
+  color: white;
+  font-size: 14px;
+}
+
+.navbar-section input, .navbar-section select {
+  width: 200px;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.navbar-section input:focus {
+  border-color: #09f;
+  outline: none;
+}
+
+.navbar label {
+  margin-right: 10px;
+}
+
+.navbar input,
+.navbar select {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.navbar button {
+  padding: 5px 10px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: transform 0.3s ease;
+  margin: 20px 5px 0;
+}
+
+.navbar button:hover {
+  background-color: #ccc;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+  
